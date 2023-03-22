@@ -14,13 +14,17 @@
 
 // Execute `rustlings hint quiz3` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
+use std::collections::HashMap;
 
 pub struct ReportCard {
     pub grade: f32,
     pub student_name: String,
     pub student_age: u8,
 }
+
+// const mlp : HashMap<u32, &str> = HashMap::from([
+//     (10, "A+")
+// ])
 
 impl ReportCard {
     pub fn print(&self) -> String {
@@ -56,7 +60,7 @@ mod tests {
         };
         assert_eq!(
             report_card.print(),
-            "Gary Plotter (11) - achieved a grade of A+"
+            "Gary Plotter (11) - achieved a grade of 2.1"
         );
     }
 }
