@@ -2,10 +2,17 @@
 // Create an array with at least 100 elements in it where the ??? is.
 // Execute `rustlings hint primitive_types3` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
-
 fn main() {
-    let a = ???
+    let a= [1, 2, 3];
+ //    for x in a.iter() {
+ //        println!("{}", x);
+ //    }
+ //    
+ //    let b = vec![1,2,3];
+ //    for x in b {
+ //        println!("{}", x);
+ //    }
+ // 
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
