@@ -7,3 +7,10 @@ to identify and create them, as well as use them.
 ## Further information
 
 - [Strings](https://doc.rust-lang.org/book/ch08-02-strings.html)
+
+## Difference between `String` and `&str`
+
+String = String + &str
+
+String = String1 + &String2
+
